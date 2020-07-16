@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Studio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./Normalize.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Оглавление -->
+    <header class="header">
+      <nav class="navigation">
+        <a class="logo-header link" href="./index.html"
+          ><span class="word-blue">Web</span
+          > <span class="word-black">Studio</span></a
+        >
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a class="nav-menu-link link" href="./index.html">Студия</a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="address-header">
+        <img class="img-icon" src="./img/1hero/envelope(hover).svg" alt="конверт" />
+        <a class="header-mail link" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <img class="img-icon" src="./img/1hero/smartphone.svg" alt="смартфон" />
+        <a class="header-tel link" href="tel:+380961111111"
+          >+38 096 111 11 11</a
+        >
+      </address>
+    </header>
+    <!-- Главная -->
+    <main>
+      <!-- HERO секция -->
+      <section class="hero-section">
+          <h1 class="main-header">
+            Эффективные решения<br />для вашего бизнеса
+          </h1>
+          <button class="modal-button">Заказать услугу</button>
+      </section>
+      <!-- Cекция "Особенности" -->
+      <section class="section-features">
+        <h2 hidden>Особенности</h2>
+        <ul class="features-list list">
+          <li class="items-features ">
+              <img class="features-list-img" src="./img/2Features/antena1.svg" alt="антена"/>
+            <h3 class="features-list-headers">Внимание к деталям</h3>
+            <p class="features-description">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="items-features">
+              <img class="features-list-img" src="./img/2Features/clock2.svg" alt="часы" />
+            <h3 class="features-list-headers">Пунктуальность</h3>
+            <p class="features-description">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="items-features">
+              <img class="features-list-img" src="./img/2Features/vector3.svg" alt="вектор" />
+            <h3 class="features-list-headers">Планирование</h3>
+            <p class="features-description">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="items-features">
+              <img class="features-list-img" src="./img/2Features/astronaut4.svg" alt="космонавт" />
+            <h3 class="features-list-headers">Современные технологии</h3>
+            <p class="features-description">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- Секция "Чем мы занимаемся" -->
+      <section class="section-work">
+        <h2 class="chapter">Чем мы занимаемся</h2>
+        <ul class="work-list list">
+          <li class="items-work">
+            <img
+              src="./img/3What_are_we_doing/1.png"
+              alt="Десктоп"
+              width="370"
+              height="294"
+            />
+            <p class="work-description">Десктопные приложения</p>
+          </li>
+          <li class="items-work">
+            <img
+              src="./img/3What_are_we_doing/2.png"
+              alt="Мобильный"
+              width="370"
+              height="294"
+            />
+            <p class="work-description">Мобильные приложения</p>
+          </li>
+          <li class="items-work">
+            <img
+              src="./img/3What_are_we_doing/3.png"
+              alt="Дизайн"
+              width="370"
+              height="294"
+            />
+            <p class="work-description">Дизайнерские решения</p>
+          </li>
+        </ul>
+      </section>
+      <!-- Секция "Наша команда" -->
+      <section class="section-our-team">
+        <h2 class="chapter">Наша команда</h2>
+        <ul class="our-team-list list">
+          <li class="items-our">
+            <img class="img-team-member"
+              src="./img/4Our_team/Nikolaj.jpg"
+              alt="Николай"
+              width="270"
+              height="260"
+            />
+            <h3 class="name">Николай Кучеренко</h3>
+            <p class="occupation-description" lang="en">Product Designer</p>
+            <ul class="team-member">
+              <li class="img-icon">
+                <a
+                  href="https://www.instagram.com/"
+                  aria-label="иконка интстаграм"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/instagram.svg"
+                    alt="иконка интстаграм"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://twitter.com/" aria-label="иконка твитер"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/twitter.svg"
+                    alt="иконка твитер"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://www.facebook.com/" aria-label="иконка фейсбук"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/facebook.svg"
+                    alt="иконка фейсбук"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://www.linkedin.com/" aria-label="иконка линкедин"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/linkedin.svg"
+                    alt="иконка линкедин"
+                /></a>
+              </li>
+            </ul>
+          </li>
+          <li class="items-our">
+            <img class="img-team-member"
+              src="./img/4Our_team/Olga.png"
+              alt="Ольга"
+              width="270"
+              height="260"
+            />
+            <h3 class="name">Ольга Иванова</h3>
+            <p class="occupation-description" lang="en">Frontend Developer</p>
+            <ul class="team-member">
+              <li class="img-icon">
+                <a
+                  href="https://www.instagram.com/"
+                  aria-label="иконка интстаграм"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/instagram.svg"
+                    alt="иконка интстаграм"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://twitter.com/" aria-label="иконка твитер"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/twitter.svg"
+                    alt="иконка твитер"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://www.facebook.com/" aria-label="иконка фейсбук"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/facebook.svg"
+                    alt="иконка фейсбук"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://www.linkedin.com/" aria-label="иконка линкедин"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/linkedin.svg"
+                    alt="иконка линкедин"
+                /></a>
+              </li>
+            </ul>
+          </li>
+          <li class="items-our">
+            <img class="img-team-member"
+              src="./img/4Our_team/Andrew.png"
+              alt="Андрей"
+              width="270"
+              height="260"
+            />
+            <h3 class="name">Андрей Шевченко</h3>
+            <p class="occupation-description" lang="en">Marketing</p>
+            <ul class="team-member">
+              <li class="img-icon">
+                <a
+                  href="https://www.instagram.com/"
+                  aria-label="иконка интстаграм"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/instagram.svg"
+                    alt="иконка интстаграм"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://twitter.com/" aria-label="иконка твитер"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/twitter.svg"
+                    alt="иконка твитер"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://www.facebook.com/" aria-label="иконка фейсбук"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/facebook.svg"
+                    alt="иконка фейсбук"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://www.linkedin.com/" aria-label="иконка линкедин"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/linkedin.svg"
+                    alt="иконка линкедин"
+                /></a>
+              </li>
+            </ul>
+          </li>
+          <li class="items-our">
+            <img class="img-team-member"
+              src="./img/4Our_team/Ivan.png"
+              alt="Иван"
+              width="270"
+              height="260"
+            />
+            <h3 class="name">Иван Николаев</h3>
+            <p class="occupation-description" lang="en">UI Designer</p>
+            <ul class="team-member">
+              <li class="img-icon">
+                <a
+                  href="https://www.instagram.com/"
+                  aria-label="иконка интстаграм"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/instagram.svg"
+                    alt="иконка интстаграм"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://twitter.com/" aria-label="иконка твитер"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/twitter.svg"
+                    alt="иконка твитер"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://www.facebook.com/" aria-label="иконка фейсбук"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/facebook.svg"
+                    alt="иконка фейсбук"
+                /></a>
+              </li>
+              <li class="img-icon">
+                <a href="https://www.linkedin.com/" aria-label="иконка линкедин"
+                  ><img
+                    src="./img/4Our_team/logosocialresourses/linkedin.svg"
+                    alt="иконка линкедин"
+                /></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!-- Секция "Постоянные клиенты" -->
+      <section class="sections-customers">
+        <h2 class="chapter">Постоянные клиенты</h2>
+        <ul class="customer-list list">
+          <li class="items-customer">
+            <a href="#"
+              ><img src="./img/5Regular_customers/Client1.svg" alt="логобрэнд1"
+            /></a>
+          </li>
+          <li class="items-customer">
+            <a href="#"
+              ><img src="./img/5Regular_customers/Client2.svg" alt="логобрэнд2"
+            /></a>
+          </li>
+          <li class="items-customer">
+            <a href="#"
+              ><img src="./img/5Regular_customers/Client3.svg" alt="логобрэнд3"
+            /></a>
+          </li>
+          <li class="items-customer">
+            <a href="#"
+              ><img src="./img/5Regular_customers/Client4.svg" alt="логобрэнд4"
+            /></a>
+          </li>
+          <li class="items-customer">
+            <a href="#"
+              ><img src="./img/5Regular_customers/Client5.svg" alt="логобрэнд5"
+            /></a>
+          </li>
+          <li class="items-customer">
+            <a href="#"
+              ><img src="./img/5Regular_customers/Client6.svg" alt="логобрэнд6"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Подвал -->
+    <footer class="footer">
+      <div>
+        <a class="logo-footer link" href="./index.html"
+          ><span class="word-blue">Web</span
+          > <span class="word-white">Studio</span></a
+        >
+        <address>
+          <ul class="address-footer">
+            <li><a
+              class="footer-map link"
+              href="https://goo.gl/maps/sK2XC8ctWBCpQ46D7"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            ></li>
+            <li><a class="footer-mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            ></li>
+            <li><a class="footer-tel link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            ></li>
+          </ul>
+        </address>
+      </div>
+      <div>
+        <b class="join-in">присоединяйтесь</b>
+        <ul class="social-networks">
+          <li class="footer-social-networks">
+            <a href="https://www.instagram.com/" aria-label="иконка интстаграм"
+              ><img
+                src="./img/4Our_team/logosocialresourses/instagramwhite.svg"
+                alt="иконка интстаграм"
+            /></a>
+          </li>
+          <li class="footer-social-networks">
+            <a href="https://twitter.com/" aria-label="иконка твитер"
+              ><img
+                src="./img/4Our_team/logosocialresourses/twitterwhite.svg"
+                alt="иконка твитер"
+            /></a>
+          </li>
+          <li class="footer-social-networks">
+            <a href="https://www.facebook.com/" aria-label="иконка фейсбук"
+              ><img
+                src="./img/4Our_team/logosocialresourses/facebookwhite.svg"
+                alt="иконка фейсбук"
+            /></a>
+          </li>
+          <li class="footer-social-networks">
+            <a href="https://www.linkedin.com/" aria-label="иконка линкедин"
+              ><img
+                src="./img/4Our_team/logosocialresourses/linkedinwhite.svg"
+                alt="иконка линкедин"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <b class="subscribe-text">Подпишитесь на рассылку</b>
+        <ul  class="subscribe">
+          <li><input class="inputtext" placeholder="E-mail" type="email"></li>
+          <li><button class="modal-button-footer"><span class="marginrigth">Подписаться</span><img src="./img/icon.svg" alt="иконка конверта"></button></li>
+        </ul>        
+      </div>
+    </footer>
+  </body>
+</html>
