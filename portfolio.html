@@ -10,36 +10,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- Оглавление -->
-    <header class="header">
-      <nav class="navigation-address">
-        <a class="logo-header link" href="./index.html"
-          ><span class="word-blue">Web</span
-          > <span class="word-black">Studio</span></a
-        >
-        <ul class="nav-menu">
-          <li class="nav-menu-item">
-            <a class="nav-menu-link link" href="./index.html">Студия</a>
-          </li>
-          <li class="nav-menu-item">
-            <a class="nav-menu-link link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="nav-menu-item">
-            <a class="nav-menu-link link" href="#">Контакты</a>
-          </li>
-        </ul>
-      <address class="address-header">
-        <img class="img-icon" src="./img/1hero/envelope(hover).svg" alt="конверт" />
-        <a class="header-mail link" href="mailto:info@devstudio.com"
+    <div class="wrapper">
+    <!-- Оглавление --> 
+      <header class="header">
+        <div class="header-section">
+          <nav class="navigation-address">
+            <a class="logo-header link" href="./index.html"
+            ><span class="word-blue">Web</span
+            > <span class="word-black">Studio</span></a
+            >
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
+              <a class="nav-menu-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="nav-menu-item">
+              <a class="nav-menu-link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-menu-item">
+              <a class="nav-menu-link link" href="#">Контакты</a>
+            </li>
+          </ul>
+        <address class="address-header">
+          <img class="img-icon" src="./img/1hero/envelope(hover).svg" alt="конверт" />
+          <a class="header-mail link" href="mailto:info@devstudio.com"
           >info@devstudio.com</a
-        >
-        <img class="img-icon" src="./img/1hero/smartphone.svg" alt="смартфон" />
-        <a class="header-tel link" href="tel:+380961111111"
+          >
+          <img class="img-icon" src="./img/1hero/smartphone.svg" alt="смартфон" />
+          <a class="header-tel link" href="tel:+380961111111"
           >+38 096 111 11 11</a
-        >
-      </address>
-    </nav>
-    </header>
+          >
+        </address>
+        </nav>
+      </div>
+      </header>
     <!-- Главный блок -->
     <main class="main-portfolio">
       <nav class="filter">
@@ -61,79 +64,98 @@
           </li>
         </ul>
       </nav>
-      <ul class="main-list-portfolio list">
+      <ul class="main-list-portfolio list section">
         <li class="list-item">
           <a class="item link" href="#">
           <img class="item-img" src="./img/Portfolio/01.png" alt="синий квадрат">
-          <h2 class="main-list-header">Технокряк</h2>
-          <p class="main-list-description">Веб-сайт</p>
-          <p hidden class="tehnokrjak">
-            Технокряк это современная площадка распространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и атак на
-            защищённые сервера конкурентов.
-          </p>
+          <div class="main-list-item">
+            <h2 class="main-list-header">Технокряк</h2>
+            <p class="main-list-description">Веб-сайт</p>
+            <p hidden class="tehnokrjak">
+              Технокряк это современная площадка распространения коронавируса.
+              Компании используют эту платформу для цифрового шпионажа и атак на
+              защищённые сервера конкурентов.
+            </p>
+          </div>
           </a>
         </li>
         <li class="list-item">
           <a class="item link" href="#">
           <img class="item-img" src="./img/Portfolio/img1.png" alt="Постер Новый Орлеан и Золотая Звезда">
+          <div class="main-list-item">
           <h2 class="main-list-header">Постер New Orlean vs Golden Star</h2>
           <p class="main-list-description">Дизайн</p>
+        </div>
           </a>
         </li>
         <li class="list-item">
           <a class="item link" href="#">
           <img class="item-img" src="./img/Portfolio/img2.png" alt="Ресторан Морская еда">
+          <div class="main-list-item">
           <h2 class="main-list-header">Ресторан Seafood</h2>
           <p class="main-list-description">Приложение</p>
+          </div>
           </a>
         </li>
         <li class="list-item">
           <a class="item link" href="#">
           <img class="item-img" src="./img/Portfolio/img3.png" alt="Проэкт Прайм">
+          <div class="main-list-item">
           <h2 class="main-list-header">Проект Prime</h2>
           <p>Маркетинг</p>
+          </div>
          </a>
         </li>
         <li class="list-item">
           <a class="item link" href="#">
           <img class="item-img" src="./img/Portfolio/img4.png" alt="Проэкт Боксез">
+          <div class="main-list-item">
           <h2 class="main-list-header">Проект Boxes</h2>
           <p class="main-list-description">Приложение</p>
+          </div>
          </a>
         </li>
         <li class="list-item">
           <a class="item link" href="#">
           <img class="item-img" src="./img/Portfolio/img5.png" alt="Вдохновение не имеет границ">
+          <div class="main-list-item">
           <h2 class="main-list-header">Inspiration has no Borders</h2>
           <p class="main-list-description">Веб-сайт</p>
+          </div>
          </a>
         </li>
         <li class="list-item">
           <a class="item link" href="#">
           <img class="item-img" src="./img/Portfolio/img6.png" alt="Издание Лимитед Эдишн">
+          <div class="main-list-item">
           <h2 class="main-list-header">Издание Limited Edition</h2>
           <p class="main-list-description">Дизайн</p>
+          </div>
          </a>
         </li>
         <li class="list-item">
           <a class="item link" href="#">
           <img class="item-img" src="./img/Portfolio/img7.png" alt="Проэкт Лаб">
+          <div class="main-list-item">
           <h2 class="main-list-header">Проект LAB</h2>
           <p class="main-list-description">Маркетинг</p>
+          </div>
          </a>
         </li>
         <li class="list-item">
           <a class="item link" href="#">         
           <img class="item-img" src="./img/Portfolio/img8.png" alt="Растущий Бизнесс">
+          <div class="main-list-item">
           <h2 class="main-list-header">Growing Business</h2>
           <p class="main-list-description">Приложение</p>
+          </div>
          </a>
         </li>
       </ul>
     </main>
         <!-- Подвал -->
         <footer class="footer">
+          <div class="footer-section">
           <div>
             <a class="logo-footer link" href="./index.html"
               ><span class="word-blue">Web</span
@@ -195,6 +217,8 @@
               <li><button class="modal-button-footer"><span class="marginrigth">Подписаться</span><img src="./img/icon.svg" alt="иконка конверта"></button></li>
             </ul>        
           </div>
+        </div>
         </footer>
+      </div>
   </body>
 </html>

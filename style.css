@@ -1,13 +1,14 @@
-  
-body {
-
-}
 
 .wrapper {
     width: 1600px;
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto; 
+}
+
+.section {
+    width: 1170px;
+    margin: auto;
 }
 
 ul {
@@ -27,16 +28,11 @@ img {
     display: block;
 }
 
-/* Для списков */
-/* .list {
-    display: flex;
-    justify-content: center;
-} */
-
 /* Шапка */
 
-.header {
-    /* display: flex; */
+.header-section {
+    width: 1170px;
+    margin: auto;
 }
 
 .logo-header {
@@ -67,10 +63,6 @@ img {
     display: flex;
     margin-right: auto;
 }
-
-/* .nav-menu-item {
-    display: block;
-} */
 
 .nav-menu-item:not(:last-child) {
     margin-right: 50px;
@@ -172,21 +164,17 @@ img {
 
 .section-features {
     justify-content: center;
-    /* display: flex;
-    justify-content: center; */
     background-color: #ECECEC;
     padding: 94px 0px 47px 0px;
 }
 
-.items-features:not(:last-child) {
+.items-features {
+    width: 270px;
     margin-right: 30px;
 }
 
-.features-list {
-    /* align-items: center; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: baseline; */
+.items-features:last-child {
+    margin-right: 0px;
 }
 
 .features-list-img {
@@ -205,7 +193,6 @@ img {
 
 .features-description {
     margin-bottom: 0;
-    /* display: inline-block; */
 }
 
 /* Секция "Чем мы занимаемся" */
@@ -302,7 +289,6 @@ img {
 
 /* Для текста в "Чем мы занимаемся" */
 .work-description {
-    /* display: block; */
     margin: 0;
     padding: 27px 0px;
     text-align: center;
@@ -317,11 +303,17 @@ img {
 /* Подвал */
 
 .footer {
+
+    padding: 60px 0px;
+    background-color: #2F303A;
+}
+
+.footer-section {
     display: flex;
     align-items: baseline;
     justify-content: center;
-    padding: 60px 0px;
-    background-color: #2F303A;
+    width: 1170px;
+    margin: auto;
 }
 
 .logo-footer {
@@ -423,8 +415,6 @@ img {
     margin-right: 10px;
 }
 
-
-
 /* Портфолио */
 
 /* Кнопки фильтра портфолио */
@@ -451,9 +441,12 @@ img {
     color: #FFFFFF;
 }
 
+.portfolio-container {
+    margin: auto;
+}
+
 .main-portfolio {
-    /* ??? */
-    margin: 0px 215px;
+    background-color: #ECECEC;
     padding: 93px 0px 94px 0px;
 }
 
@@ -470,8 +463,11 @@ img {
     margin-right: 0;
 }
 
+.main-list-item {
+    padding-left: 24px;
+}
+
 .main-list-header {
-    margin-top: 0;
     font-weight: bold;
     font-size: 18px;
     line-height: 2.00;
@@ -490,5 +486,3 @@ img {
 .item-img {
     margin-bottom: 20px;
 }
-
-/*  */
