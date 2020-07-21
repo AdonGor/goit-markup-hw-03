@@ -1,14 +1,17 @@
 
 .wrapper {
-    width: 1600px;
+    max-width: 1600px;
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto; 
 }
 
 .section {
-    width: 1170px;
-    margin: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
@@ -31,8 +34,11 @@ img {
 /* Шапка */
 
 .header-section {
-    width: 1170px;
-    margin: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo-header {
@@ -312,8 +318,9 @@ img {
     display: flex;
     align-items: baseline;
     justify-content: center;
-    width: 1170px;
-    margin: auto;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .logo-footer {
@@ -428,6 +435,7 @@ img {
 }
 
 .filter-list-button {
+    height: 38px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -464,6 +472,7 @@ img {
 }
 
 .main-list-item {
+    display: flex;
     padding-left: 24px;
 }
 
