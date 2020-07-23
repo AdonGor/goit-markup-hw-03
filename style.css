@@ -19,7 +19,7 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
 
 h3,
@@ -63,11 +63,14 @@ img {
 .navigation-address {
     display: flex;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .nav-menu {
     display: flex;
     margin-right: auto;
+    justify-content: center;
 }
 
 .nav-menu-item:not(:last-child) {
@@ -319,6 +322,8 @@ img {
     align-items: baseline;
     justify-content: center;
     width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -456,6 +461,14 @@ img {
 .main-portfolio {
     background-color: #ECECEC;
     padding: 93px 0px 94px 0px;
+}
+
+.main-section {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-list-portfolio {
