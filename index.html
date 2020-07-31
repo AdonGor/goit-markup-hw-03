@@ -34,14 +34,17 @@
           </li>
         </ul>
       <address class="address-header">
-        <img class="img-icon" src="./img/1hero/envelope(hover).svg" alt="конверт" />
-        <a class="header-mail link" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-        >
-        <img class="img-icon" src="./img/1hero/smartphone.svg" alt="смартфон" />
-        <a class="header-tel link" href="tel:+380961111111"
-        >+38 096 111 11 11</a
-        >
+
+        <!-- <img class="img-icon" src="./img/1hero/envelope(hover).svg" alt="конверт" /> -->
+        <a class="header-mail link" href="mailto:info@devstudio.com">
+        <svg class="img-icon" widht="16" height="11" viewBox="0 0 16 11">
+          <use href="./sprite.svg#icon-envelopehover"></use>
+        </svg>info@devstudio.com</a>
+        <!-- <img class="img-icon" src="./img/1hero/smartphone.svg" alt="смартфон" /> -->
+        <a class="header-tel link" href="tel:+380961111111">        
+        <svg class="img-icon" widht="10" height="15" viewBox="0 0 10 15">
+          <use href="./sprite.svg#icon-smartphone"></use>
+        </svg>+38 096 111 11 11</a>
       </address>
       </nav>
     </div>
@@ -63,7 +66,11 @@
         <h2 hidden>Особенности</h2>
         <ul class="features-list list">
           <li class="items-features ">
-              <img class="features-list-img" src="./img/2Features/antena1.svg" alt="антена" width="270" height="120"/>
+            <div class="features-img-background">
+              <svg class="features-img" widht="70" height="70">
+                <use href="./sprite.svg#icon-antenna"></use>
+              </svg>
+            </div>
             <h3 class="features-list-headers">Внимание к деталям</h3>
             <p class="features-description">
               Идейные соображения, а также начало повседневной работы по
@@ -71,7 +78,11 @@
             </p>
           </li>
           <li class="items-features">
-              <img class="features-list-img" src="./img/2Features/clock2.svg" alt="часы" width="270" height="120"/>
+            <div class="features-img-background">
+              <svg class="features-img" widht="70" height="70">
+                <use href="./sprite.svg#icon-clock"></use>
+              </svg>
+            </div>
             <h3 class="features-list-headers">Пунктуальность</h3>
             <p class="features-description">
               Задача организации, в особенности же рамки и место обучения кадров
@@ -79,7 +90,11 @@
             </p>
           </li>
           <li class="items-features">
-              <img class="features-list-img" src="./img/2Features/vector3.svg" alt="вектор" width="270" height="120"/>
+            <div class="features-img-background">
+              <svg class="features-img" widht="70" height="70">
+                <use href="./sprite.svg#icon-diagram"></use>
+              </svg>
+            </div>
             <h3 class="features-list-headers">Планирование</h3>
             <p class="features-description">
               Равным образом консультация с широким активом в значительной
@@ -87,7 +102,11 @@
             </p>
           </li>
           <li class="items-features">
-              <img class="features-list-img" src="./img/2Features/astronaut4.svg" alt="космонавт" width="270" height="120"/>
+            <div class="features-img-background">
+              <svg class="features-img" widht="70" height="70">
+                <use href="./sprite.svg#icon-astronaut"></use>
+              </svg>
+            </div>
             <h3 class="features-list-headers">Современные технологии</h3>
             <p class="features-description">
               Значимость этих проблем настолько очевидна, что реализация
@@ -104,7 +123,7 @@
         <ul class="work-list list">
           <li class="items-work">
             <img
-              src="./img/3What_are_we_doing/1.png"
+              src="./img/3What_are_we_doing/1.jpg"
               alt="Десктоп"
               width="370"
               height="294"
@@ -113,7 +132,7 @@
           </li>
           <li class="items-work">
             <img
-              src="./img/3What_are_we_doing/2.png"
+              src="./img/3What_are_we_doing/2.jpg"
               alt="Мобильный"
               width="370"
               height="294"
@@ -122,7 +141,7 @@
           </li>
           <li class="items-work">
             <img
-              src="./img/3What_are_we_doing/3.png"
+              src="./img/3What_are_we_doing/3.jpg"
               alt="Дизайн"
               width="370"
               height="294"
@@ -181,7 +200,7 @@
           </li>
           <li class="items-our">
             <img class="img-team-member"
-              src="./img/4Our_team/Olga.png"
+              src="./img/4Our_team/Olga.jpg"
               alt="Ольга"
               width="270"
               height="260"
@@ -223,7 +242,7 @@
           </li>
           <li class="items-our">
             <img class="img-team-member"
-              src="./img/4Our_team/Andrew.png"
+              src="./img/4Our_team/Andrew.jpg"
               alt="Андрей"
               width="270"
               height="260"
@@ -265,7 +284,7 @@
           </li>
           <li class="items-our">
             <img class="img-team-member"
-              src="./img/4Our_team/Ivan.png"
+              src="./img/4Our_team/Ivan.jpg"
               alt="Иван"
               width="270"
               height="260"
