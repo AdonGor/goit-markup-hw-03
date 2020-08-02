@@ -112,15 +112,16 @@ img {
     padding: 32px 0px 32px 0px;    
 }
 
+.header-mail:hover,
+.header-tel:hover {
+    fill: #2196F3;
+}
+
 .header-tel {
     padding: 32px 0px 32px 0px;    
 }
 
-.img-icon:hover {
-    fill: #2196F3;
-}
-
-.img-icon:not(:last-child) {
+.img-icon {
     margin-right: 10px;
 }
 
@@ -291,6 +292,10 @@ img {
     margin-bottom: 24px;
 }
 
+.svg-icon:not(:last-child) {
+    margin-right: 10px;
+}
+
 .name {
     text-align: center;
     font-weight: 500;
@@ -308,10 +313,30 @@ img {
     letter-spacing: 0.03em;
     color: #757575;
 }
+/* 
+.social-networks-link {
+
+}
+
+.social-networks-svg {
+    fill: #fff;
+    stroke: #AFB1B8;
+} */
+
+.social-networks-link {
+    fill: #FFFFFF;
+} 
+
+.social-networks-link:hover .social-networks-svg {
+    fill: #2196F3;
+    stroke: #fff;
+}
+
 
 /* Постоянные клиенты */
 
 .sections-customers {
+    background-color: #ECECEC;
     padding: 94px 0px;
 }
 
@@ -319,6 +344,17 @@ img {
     margin-right: 30px;    
 }
 
+.items-customer-logo {
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.items-customer-logo:hover {
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+}
 
 /* Для шрифтов в "Особености" и footer mail и tel */
 .features-description,
@@ -360,7 +396,6 @@ img {
 /* Подвал */
 
 .footer {
-
     padding: 60px 0px;
     background-color: #2F303A;
 }
@@ -376,6 +411,10 @@ img {
     margin-left: auto;
 }
 
+.footer-adress-container {
+    margin-right: 69px;
+}
+
 .logo-footer {
     display: block;
     margin-bottom: 20px;
@@ -389,7 +428,6 @@ img {
 
 .address-footer {
     display: block;
-    margin-right: 69px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
@@ -412,6 +450,10 @@ img {
     color: #FFFFFF;
 }
 
+.join-in-container {
+    margin-right: 94px;
+}
+
 .join-in {
     display: block;
     margin-bottom: 20px;
@@ -425,17 +467,12 @@ img {
 
 .social-networks {
     display: flex;
-    margin-right: 94px;
-}
-
-.footer-social-networks:not(:last-child) {
-    margin-right: 10px;
 }
 
 /* временный блок, заготовка*/
-.subscribe {
+/* .subscribe {
     display: flex;
-}
+} */
 
 .subscribe-text {
     display: block;
@@ -452,27 +489,31 @@ img {
 
 .inputtext {
     width: 358px;
-    height: 50px;
+    height: 49.3px;
     margin-right: 12px;
-    background-color: #2F303A;;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
 }
 
 .modal-button-footer {
     display: inline-flex;
-    width: 200px;
-    padding: 13px 13px 13px 29px;
+    align-items: center;
+    padding: 10px 29px;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background: #2196F3;
+    background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
-.marginrigth {
-    margin-right: 10px;
+.footer-svg-icon {
+    margin-left: 10px;
 }
 
 /* Портфолио */
