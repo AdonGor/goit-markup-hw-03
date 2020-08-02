@@ -313,23 +313,29 @@ img {
     letter-spacing: 0.03em;
     color: #757575;
 }
-/* 
-.social-networks-link {
 
+.social-networks-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+} 
+
+.social-networks-link:hover {
+    background-color: #2196F3;
 }
 
 .social-networks-svg {
-    fill: #fff;
-    stroke: #AFB1B8;
-} */
+    fill: currentColor;
+}
 
-.social-networks-link {
-    fill: #FFFFFF;
-} 
-
-.social-networks-link:hover .social-networks-svg {
-    fill: #2196F3;
-    stroke: #fff;
+.social-networks-svg {
+    width: 20px;
+    height: 20px;
+    fill: #afb1b8;
 }
 
 
